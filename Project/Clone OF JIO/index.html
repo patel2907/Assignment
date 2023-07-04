@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- navbar start -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary ">
+        <div class="container-fluid p-2">
+            <a class="navbar-brand ps-5" href="#">
+                <img src="images/jio_symbl-removebg-preview.png" alt="" class="ps-5 w-50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item me-4">
+                        <a class="nav-link text-white fs-5 fw-bold" style="font-family: Arial, Helvetica, sans-serif;"
+                            aria-current="page" href="#">Mobile</a>
+                    </li>
+                    <li class="nav-item me-4">
+                        <a class="nav-link text-white fs-5 fw-bold" style="font-family: Arial, Helvetica, sans-serif;"
+                            href="#">True 5G</a>
+                    </li>
+                    <li class="nav-item me-4">
+                        <a class="nav-link text-white fs-5 fw-bold" style="font-family: Arial, Helvetica, sans-serif;"
+                            href="#">JioFiber</a>
+                    </li>
+                    <li class="nav-item me-4">
+                        <a class="nav-link text-white fs-5 fw-bold" style="font-family: Arial, Helvetica, sans-serif;"
+                            href="#">Business</a>
+                    </li>
+                    <li class="nav-item me-4">
+                        <a class="nav-link text-white fs-5 fw-bold" style="font-family: Arial, Helvetica, sans-serif;"
+                            href="#">Shop</a>
+                    </li>
+                    <li class="nav-item me-4">
+                        <a class="nav-link text-white fs-5 fw-bold" style="font-family: Arial, Helvetica, sans-serif;"
+                            href="#">Apps</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white fs-5 fw-bold" style="font-family: Arial, Helvetica, sans-serif;"
+                            href="#">Support</a>
+                    </li>
+                    <div class="d-flex ps-3">
+                        <input class="form-control pe-5 ps-5 ms-5 me-2" type="search" aria-label="Search" id="search">
+                        <h6>Search</h6>
+                        <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-user"
+                                style="color: #3962a7;"></i></button>
+                    </div>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- slider start  -->
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="images/choice-pay-mobile-hmpg-desk.webp" class="d-block w-100" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="d-flex display-2 fw-bolder pb-3" style="font-family: Arial, Helvetica, sans-serif;">Get a
+                        SIM with <br>your lucky <br>number</h1>
+                    <p class="d-flex fs-5">Free SIM delivery with doorstep KYC.</p>
+                    <button class="btn btn-primary rounded-pill fw-bold p-2 fs-5 mt-2  ps-3 pe-3 d-flex"
+                        type="button">Order New Sim</button>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="images/jioplus-masthead-desk-v1.png" class="d-block w-100" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="d-flex display-2 fw-bolder text-white pb-3"
+                        style="font-family: Arial, Helvetica, sans-serif;">Your Jio SIM <br>gets delivered <br>for FREE
+                    </h1>
+                    <p class="d-flex fs-5 pt-3 text-white">Get ready for unlimited digital experiences.</p>
+                    <button class="btn btn-primary rounded-pill fw-bold p-2 fs-5 mt-2  ps-3 pe-3 d-flex"
+                        type="button">Order Jio Sim</button>
+                </div>
+            </div>
+            <div class="carousel-item" style="height: 460px;">
+                <img src="images/homepage-desk.png" class="d-block w-100" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="d-flex display-2 fw-bolder text-white pb-3"
+                        style="font-family: Arial, Helvetica, sans-serif;">Your 1-year plan <br>now lasts longer</h1>
+                    <p class="d-flex fs-5 pt-3 text-white">Get 23 days of extra validity with 2,999 plan.</p>
+                    <button class="btn btn-primary rounded-pill fw-bold p-2 fs-5 mt-2  ps-3 pe-3 d-flex"
+                        type="button">Recharge Now</button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- slider end -->
+
+    <!-- icon start -->
+
+    <div class="container-fluid mt-5">
+        <section class="container d-flex flex-sm-wrap flex-md-nowrap">
+            <div class="container mt-5">
+                <div class="rounded-circle p-4 w-50 d-flex justify-content-center align-items-center"
+                    style="background-color: lightgray;"><i class="fa-sharp fa-solid fa-file-invoice-dollar fs-1 "
+                        style="color: #296adb;"></i></div>
+                <h6 class="ms-3 mt-3">Recharge</h6>
+            </div>
+            <div class="container mt-5">
+                <div class="rounded-circle p-4 w-50 d-flex justify-content-center align-items-center"
+                    style="background-color: lightgray;"><i class="fa-solid fa-indian-rupee-sign fs-1"
+                        style="color: #2c64c3;"></i></div>
+                <h6 class="ms-3 mt-3">Pay Bill</h6>
+            </div>
+            <div class="container mt-5">
+                <div class="rounded-circle p-4 w-50 d-flex justify-content-center align-items-center"
+                    style="background-color: lightgray;"><i class="fa-solid fa-sim-card fs-1"
+                        style="color: #2e64c2;"></i></div>
+                <h6 class="ms-3 mt-3">Get Jio Sim</h6>
+            </div>
+            <div class="container mt-5">
+                <div class="rounded-circle p-4 w-50 d-flex justify-content-center align-items-center"
+                    style="background-color: lightgray;"><i class="fa-solid fa-sim-card fs-1"
+                        style="color: #2e64c2;"></i></div>
+                <h6 class="ms-3 mt-3">Port to Jio</h6>
+            </div>
+            <div class="container mt-5">
+                <div class="rounded-circle p-4 w-50 d-flex justify-content-center align-items-center"
+                    style="background-color: lightgray;"><i class="fa-solid fa-wifi fs-1" style="color: #2a65cb;"></i>
+                </div>
+                <h6 class="ms-3 mt-3">Jio Fiber</h6>
+            </div>
+            <div class="container mt-5">
+                <div class="rounded-circle p-4 w-50 d-flex justify-content-center align-items-center"
+                    style="background-color: lightgray;"><i class="fa-solid fa-headset fs-1"
+                        style="color: #2a4f8d;"></i></div>
+                <h6 class="ms-3 mt-3">Support</h6>
+            </div>
+
+        </section>
+    </div>
+
+    <!-- icon end -->
+
+    <!-- true 5g section start -->
+    <div class="container-fluid d-flex" style="background-color: #d9008d;margin-top: 120px;">
+        <div class="container w-50">
+            <img src="images/GUgb8bzwMa4RTSNS-removebg-preview.png" alt="" style="width: 100%;">
+        </div>
+        <div class="container  mt-5 ms-5">
+            <div class="container mt-5 d-flex justify-content-center align-items-center">
+                <img src="images/true5g-badge-pink.svg" alt="">
+            </div>
+            <div class="container mt-5 ms-5">
+                <h1 class="text-white display-2 fw-bolder mt-5" style="font-family: Arial, Helvetica, sans-serif;">Jio
+                    True
+                    5G is Live
+                </h1>
+            </div>
+        </div>
+        <div class="container w-50">
+            <img src="images/GUgb8bzwMa4RTSNS-removebg-preview.png" alt="" style="width: 100%;">
+        </div>
+    </div>
+    <div class="container-fluid d-flex mx-auto flex-sm-wrap flex-md-nowrap" style="background-color: #d9008d;">
+        <div class="container ms-5">
+            <h1 class="text-white fw-bolder ms-5" style="font-family: Arial, Helvetica, sans-serif;">
+                Let's check the status of <br> True 5G in your <br> city/towns
+            </h1>
+            <select class="form-select w-50 p-2 ms-5 mt-4 rounded-pill" aria-label="Default select example">
+                <option selected>Select your state</option>
+                <option value="1">Asam</option>
+                <option value="2">Bihar</option>
+                <option value="3">Chattisgarh</option>
+                <option value="4">Delhi</option>
+                <option value="5">Goa</option>
+                <option value="6">Gujarat</option>
+            </select>
+        </div>
+        <div class="continer me-5">
+            <div class="container me-5 d-flex flex-sm-wrap flex-md-nowrap">
+                <h1 class="text-white display-1 fw-bold"> 5,657 </h1>
+                <h1 class="text-white me-5 fw-bold" style="position: relative;">Cities/Towns</h1>
+                <h1 class="me-5 fw-bold float-start"
+                    style="color: #401d0c; position: absolute; margin: 40px 0 0 200px;">36 states/UT</h1>
+            </div>
+
+            <div class="container">
+
+                <h2 class="text-white mt-3 fw-bold">Nidadavole, Lanka, Madhepura, <br> Akaltara, and many more.</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="background-color: #d9008d;">
+        <div class="container p-5">
+            <p class="text-white p-1 fw-bold d-flex align-items-center justify-content-center">Can't wait to know more
+                about True 5G?</p>
+            <div class="container d-flex align-items-center justify-content-center">
+                <button class="mt-3 p-3 rounded-pill border-0" type="button" class="btn btn-outline-primary">Explore
+                    Now</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- true 5g section end -->
+    <!-- discover start -->
+
+    <div class="container-fluid">
+        <div class="container mt-5 pt-4">
+            <h1 class="d-flex justify-content-center align-items-center display-2 fw-bolder text-dark"
+                style="font-family: Arial, Helvetica, sans-serif;">Discover new possibilities</h1>
+            <p class="d-flex justify-content-center align-items-center fs-5"
+                style="font-family: Arial, Helvetica, sans-serif;">Planning a digital transformation for home, business,
+                or personal experiences? You're just a step away.</p>
+        </div>
+    </div>
+    <div class="container-fluid d-flex flex-sm-wrap flex-md-nowrap" style="padding-left: 100px;">
+        <div class="container m-5 me-0">
+            <img src="images/mobile-17-05-2023.png" alt="" class="w-50 ms-5">
+            <h1 class="ms-5 mt-2 ps-5 fw-bold" style="font-family: Arial, Helvetica, sans-serif;">
+                For you
+            </h1>
+            <p class="fs-5 mt-3" style="font-family: Arial, Helvetica, sans-serif;">
+                Enjoy mobile connectivity with unlimited data, <br> voice calls, SMS, and much more.
+            </p>
+            <button class="btn btn-primary rounded-pill fw-bold p-2 fs-5 mt-2 ms-5 ps-3 pe-3" type="button">Explore
+                Mobile</button>
+        </div>
+
+        <div class="container m-5 ms-0 me-0">
+            <img src="images/fiber-17-05-2023.png" alt="" class="w-50 ms-5">
+            <h1 class="mt-2 ps-4 fw-bold" style="font-family: Arial, Helvetica, sans-serif;">
+                For your home
+            </h1>
+            <p class="fs-5 mt-3" style="font-family: Arial, Helvetica, sans-serif;">
+                Power up multiple devices with superfast <br>internet for a connected living experience.
+            </p>
+            <button class="btn btn-primary rounded-pill fw-bold p-2 fs-5 mt-2 ms-5 ps-3 pe-3" type="button">Explore
+                JioFiber</button>
+        </div>
+
+        <div class="container m-5 ms-0 me-0">
+            <img src="images/bix-17-05-2023.png" alt="" class="w-50 ms-5">
+            <h1 class="mt-2 ps-1 fw-bold" style="font-family: Arial, Helvetica, sans-serif;">
+                For your business
+            </h1>
+            <p class="fs-5 mt-3" style="font-family: Arial, Helvetica, sans-serif;">
+                Explore digital solutions to optimise processes <br> for enhanced productivity.
+            </p>
+            <button class="btn btn-primary rounded-pill fw-bold p-2 fs-5 mt-2 ms-5 ps-3 pe-3" type="button">Explore
+                JioBusiness</button>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="container pt-3">
+            <h1 class="d-flex justify-content-center align-items-center display-2 fw-bolder text-dark"
+                style="font-family: Arial, Helvetica, sans-serif;">Enrich your digital life</h1>
+            <p class="d-flex justify-content-center align-items-center fs-5"
+                style="font-family: Arial, Helvetica, sans-serif;">Stream, shop, connect, and do much more on the go
+                with Jio apps and services.</p>
+        </div>
+    </div>
+
+    <!-- discover end -->
+
+    <!-- video section start -->
+
+    <div class="container-fluid d-flex flex-md-nowrap flex-sm-wrap" style="background-color: #d9008d;">
+        <div class="container">
+            <section class="container w-25  rounded-pill d-flex"
+                style="background-color: #59595980; margin-top: 150px;margin-left: 100px;">
+                <img src="images/jiocinema-n.svg" alt="" class="w-25">
+                <h5 class="text-white mt-2 ps-1">JioCinema</h5>
+            </section>
+            <h1 class="text-white mt-3"
+                style="font-family: Arial, Helvetica, sans-serif; font-weight: 900;margin-left: 100px;">Explore a world
+                of <br> exclusive, binge- <br>worthy content</h1>
+            <button class="mt-3 mb-5 p-3 rounded-pill border-0 fs-5 ps-4 pe-4" type="button" class="btn"
+                style="background-color: #ff99db;margin-left: 100px;">Know more</button>
+        </div>
+
+        <div class="container">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/dIvP9_NhiYw"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+            <!-- <img src="images/business-desktop.webp" alt=""> -->
+        </div>
+    </div>
+
+    <!-- video  end -->
+
+    <!-- sportlight start -->
+
+    <div class="container-fluid">
+        <div class="container">
+            <h1 class=" mt-5 d-flex justify-content-center align-items-center display-2 fw-bolder text-dark"
+                style="font-family: Arial, Helvetica, sans-serif;">In the spotlight</h1>
+            <p class="d-flex justify-content-center align-items-center fs-5"
+                style="font-family: Arial, Helvetica, sans-serif;">The best deals, news, and products.</p>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="container d-flex flex-md-nowrap flex-sm-wrap pt-5 shadow  mb-5 bg-body rounded">
+            <section class="container pt-5">
+                <h3 style="font-family: Arial, Helvetica, sans-serif;">JioDive</h3>
+                <h1 class="text-dark fs-1" style="font-family: Arial, Helvetica, sans-serif; font-weight: 900;">Explore
+                    the world of <br> virtual reality</h1>
+                <p class="fs-5 mt-3" style="font-family: Arial, Helvetica, sans-serif;">Immerse into movies, live TV
+                    content, apps, and games.</p>
+                <button class="btn btn-primary rounded-pill fw-bold p-2 fs-5 mt-2 ps-3 pe-3 mb-5" type="button">Buy
+                    JioDrive for R1299</button>
+            </section>
+            <section class="container">
+                <img src="images/dive-masthd-desk-v3.webp" alt="" style="width: 100%; height: 400px;">
+            </section>
+        </div>
+    </div>
+
+    <!-- spotlight end -->
+
+    <!-- trending device start -->
+
+    <div class="container-fluid">
+        <div class="container">
+            <h1 class=" mt-5 d-flex justify-content-center align-items-center display-2 fw-bolder text-dark"
+                style="font-family: Arial, Helvetica, sans-serif;">Latest and trending</h1>
+            <h1 class=" d-flex justify-content-center align-items-center display-2 fw-bolder text-dark"
+                style="font-family: Arial, Helvetica, sans-serif;">Devices</h1>
+            <p class="d-flex justify-content-center align-items-center fs-5"
+                style="font-family: Arial, Helvetica, sans-serif;">Get the best deals on all the latest devices on your
+                wish list.</p>
+        </div>
+        <section class="container d-flex flex-md-nowrap flex-sm-wrap mt-5">
+            <div class="container border ">
+                <button class="btn btn-primary mb-4 mt-2 fw-bold" type="button">NEW LAUNCH</button>
+                <img src="images/384X217.jpg" alt="">
+                <h4 class="pt-5">JioDive</h4>
+                <h5>R1,299<h5>
+            </div>
+            <div class="container border ms-2">
+                <button class="btn btn-primary mb-4 mt-2 fw-bold" type="button">NEW LAUNCH</button>
+                <img src="images/accessories2-min.jpg" alt="">
+                <h4 class="pt-5">JioTag</h4>
+                <h5>R749<h5>
+            </div>
+            <div class="container border ms-2">
+                <button class="btn btn-primary mb-4 mt-2 fw-bold" type="button">NEW LAUNCH</button>
+                <img src="images/accessories2-min.jpg" alt="">
+                <h4 class="pt-5">WiFi Mesh Extender</h4>
+                <h5>From R2,499<h5>
+            </div>
+        </section>
+        <div class="container d-flex justify-content-center align-items-center">
+            <button class="btn btn-white border rounded-pill mt-5 mb-5 fw-bold p-3" type="button"><a href=""
+                    class="fs-5" style="text-decoration: none;">View all products</a></button>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-5">
+        <div class="container">
+            <img src="images/carrier-desktop.webp" alt="" class="rounded" style="width: 100%;">
+        </div>
+    </div>
+
+    <!-- trending end -->
+
+    <!-- making different start -->
+
+    <div class="continer-fluid">
+        <div class="container">
+            <h1 class=" mt-5 pt-5 d-flex justify-content-center align-items-center display-2 fw-bolder text-dark"
+                style="font-family: Arial, Helvetica, sans-serif;">Making a difference</h1>
+            <p class="fs-5 mt-3 d-flex justify-content-center align-items-center"
+                style="font-family: Arial, Helvetica, sans-serif;">Here is a handful of the many success stories.</p>
+        </div>
+        <section class="container d-flex flex-md-nowrap flex-sm-wrap pt-5">
+            <div class="container">
+                <img src="images/5g-odisha-card.png" alt="" class="rounded-top">
+                <h5 class="p-3">True 5G now in Odisha</h5>
+                <p class="ps-3">The state of Odisha begins its 5G journey with <br>Jio.</p>
+                <button class="btn btn-white rounded-pill mt-3 fw-bold ps-3" type="button"><a href="" class="fs-5"
+                        style="text-decoration: none;">Detail Inside</a></button>
+            </div>
+            <div class="container">
+                <img src="images/kochi-guruvayur-card.jpg" alt="" class="rounded-top">
+                <h5 class="p-3">Launching True 5G in Kerala</h5>
+                <p class="ps-3">Kochi and Guruvayur experiences True 5G <br> speed.</p>
+                <button class="btn btn-white rounded-pill mt-3 fw-bold ps-3" type="button"><a href="" class="fs-5"
+                        style="text-decoration: none;">Know more</a></button>
+            </div>
+            <div class="container">
+                <img src="images/madhya-pradesh-card.png" alt="" class="rounded-top">
+                <h5 class="p-3">Madhya Pradesh welcomes 5G</h5>
+                <p class="ps-3">True 5G now in Mahakaleshwar Temple and <br>Mahakal Lok.</p>
+                <button class="btn btn-white rounded-pill mt-3 fw-bold ps-3" type="button"><a href="" class="fs-5"
+                        style="text-decoration: none;">Know more</a></button>
+            </div>
+        </section>
+        <div class="container d-flex justify-content-center align-items-center mt-2">
+            <button class="btn btn-white border rounded-pill mt-5 mb-5 fw-bold p-3" type="button"><a href=""
+                    class="fs-5" style="text-decoration: none;">View all</a></button>
+        </div>
+    </div>
+    </div>
+
+    <!-- making diffornt end -->
+
+    <!-- need help  start-->
+
+    <div class="container-fluid bg-primary">
+        <h1 class=" mt-5 pt-5 d-flex justify-content-center align-items-center display-2 fw-bolder text-white"
+            style="font-family: Arial, Helvetica, sans-serif;">Need guidance?</h1>
+        <p class="fs-5 mt-3 text-white d-flex justify-content-center align-items-center"
+            style="font-family: Arial, Helvetica, sans-serif;">We’d love to help you.</p>
+        <div class="container d-flex  flex-md-nowrap flex-sm-wrap justify-content-center align-items-center">
+            <button class="btn btn-white border rounded-pill mt-5 mb-5 me-3 fw-bold p-3" type="button"><i
+                    class="fa-solid fa-circle-question" style="color: #ffffff;"></i><a href=""
+                    class="fs-5 ps-2 text-white" style="text-decoration: none;">Support</a></button>
+            <button class="btn btn-white border rounded-pill mt-5 mb-5 me-3 fw-bold p-3" type="button">
+                <i class="fa-solid fa-envelope" style="color: #fafcff;"></i><a href="" class="fs-5 ps-2 text-white"
+                    style="text-decoration: none;">Chat with us</a></button>
+            <button class="btn btn-white border rounded-pill mt-5 mb-5 me-3 fw-bold p-3" type="button"><i
+                    class="fa-solid fa-phone" style="color: #f7f7f7;"></i><a href="" class="fs-5 ps-2 text-white"
+                    style="text-decoration: none;">call us</a></button>
+            <button class="btn btn-white border rounded-pill mt-5 me-3 mb-5 fw-bold p-3" type="button"><i
+                    class="fa-solid fa-store" style="color: #f9fafa;"></i><a href="" class="fs-5 ps-2 text-white"
+                    style="text-decoration: none;">Find a store</a></button>
+        </div>
+    </div>
+
+    <!-- needhelp end -->
+
+    <!-- footer start -->
+
+    <div class="container-fluid mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <h5 class="fw-bold">Our offerings</h5>
+                </div>
+                <div class="col-2">
+                    <h5 class="fw-bold">Support</h5>
+                </div>
+                <div class="col-2">
+                    <h5 class="fw-bold">Our company</h5>
+                </div>
+                <div class="col-2">
+                    <h5 class="fw-bold">Useful links</h5>
+                </div>
+                <div class="col-4">
+                    <h3 class="fw-bold">Connect with us</h3>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-2"><a href="" style="text-decoration: none; color: black;">Mobile</a></div>
+
+                <div class="col-2"><a href="" style="text-decoration: none; color: black;">Explore Support</a></div>
+
+                <div class="col-2"><a href="" style="text-decoration: none; color: black;">Reliance Industries</a></div>
+
+                <div class="col-2"><a href="" style="text-decoration: none; color: black;">Get Jio Sim</a></div>
+                <div class="col-4  d-flex">
+                    <div class="rounded-circle bg-primary p-2 me-3"><i class="fa-brands fa-twitter"
+                            style="color: #ffffff;"></i></div>
+                    <div class="rounded-circle bg-primary p-2 me-3"><i class="fa-brands fa-instagram"
+                            style="color: #f7f7f8;"></i></div>
+                    <div class="rounded-circle bg-primary p-2 me-3"><i class="fa-brands fa-facebook"></i></div>
+                    <div class="rounded-circle bg-primary p-2 me-2"><i class="fa-brands fa-youtube"></i></div>
+                    <div class="rounded-circle bg-primary p-2"><i class="fa-brands fa-linkedin"></i></div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-2"><a href="" style="text-decoration: none; color: black;">Fiber</a></div>
+
+                <div class="col-2"><a href="" style="text-decoration: none; color: black;">Locate Us</a></div>
+
+                <div class="col-2"><a href="" style="text-decoration: none; color: black;">Reliance Foundation</a></div>
+
+                <div class="col-2"><a href="" style="text-decoration: none; color: black;">Choice Number</a></div>
+
+            </div>
+            <div class="row">
+                <div class="col-2"><a href="" style="text-decoration: none; color: black;">Buisness</a></div>
+
+                <div class="col-2"><a href="" style="text-decoration: none; color: black;">FAQ</a></div>
+
+                <div class="col-2"><a href="" style="text-decoration: none; color: black;">Jio Life</a></div>
+
+                <div class="col-2"><a href="" style="text-decoration: none; color: black;">Get Jio Fiber</a></div>
+                <div class="col-4">
+                    <h3 class="fw-bold">Download MyJio</h3>
+                </div>
+
+            </div>
+            <div class="row mt-3">
+                <div class="col-2"><a href="" style="text-decoration: none; color: black;">Apps</a></div>
+
+                <div class="col-2"><a href="" style="text-decoration: none; color: black;">Track Order</a></div>
+
+                <div class="col-2"><a href="" style="text-decoration: none; color: black;">Careers</a></div>
+
+                <div class="col-2"><a href="" style="text-decoration: none; color: black;">Recharge</a></div>
+                <div class="col-4">
+                    <img src="images/G-Play.svg" alt="">
+                    <img src="images/AppStore.svg" alt="">
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-2"><a href="" style="text-decoration: none; color: black;">Shop</a></div>
+
+                <div class="col-2"><a href="" style="text-decoration: none; color: black;">Contact Us</a></div>
+
+                <div class="col-2"><a href="" style="text-decoration: none; color: black;">Investor Relations</a></div>
+
+                <div class="col-2"><a href="" style="text-decoration: none; color: black;">Pay Bills</a></div>
+
+            </div>
+            <div class="row mt-3">
+                <div class="col-2"><a href="" style="text-decoration: none; color: black;">5G Network</a></div>
+
+                <div class="col-2"><a href="" style="text-decoration: none; color: black;"></a></div>
+
+                <div class="col-2"><a href="" style="text-decoration: none; color: black;"></a></div>
+
+                <div class="col-2"><a href="" style="text-decoration: none; color: black;">Login</a></div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- footer end -->
+
+    <!-- copy right start -->
+
+    <div class="container-fluid mt-5 pt-3 border-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 d-flex">
+                    <img class="w-25 p-5 pt-0" src="images/jio_symbl-removebg-preview.png" alt="" style="width:;">
+                    <p class="pt-2">Copyright © 2023 Reliance Jio Infocomm Ltd. All rights reserved.</p>
+                </div>
+                <div class="col-1">
+                </div>
+                <div class="col-1 border-end">
+                    <p class="pt-2"> <a href="" style="text-decoration: none; color: black; font-size: 15px;">Press
+                            release</a></p>
+                </div>
+                <div class="col-1 border-end">
+                    <p class="pt-2"> <a href="" style="text-decoration: none; color: black; font-size: 15px;">
+                            Regulatory</a></p>
+                </div>
+                <div class="col-1 border-end">
+                    <p class="pt-2"> <a href="" style="text-decoration: none; color: black; font-size: 15px;">
+                            Policies</a></p>
+                </div>
+                <div class="col-2 border-end">
+                    <p class="pt-2"> <a href="" style="text-decoration: none; color: black; font-size: 15px;">
+                            Terms & conditions</a></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- copy right end -->
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</html>
