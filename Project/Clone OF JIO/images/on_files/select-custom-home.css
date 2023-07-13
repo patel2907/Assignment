@@ -1,0 +1,206 @@
+
+
+
+
+
+/* .select__custom__wrapper select{
+  width:100%;
+} */
+
+.select__custom__wrapper .select2-container--default .select2-selection--single{
+  border:0;
+  border-bottom:1px solid rgba(0, 0, 0, 0.65);
+  border-radius: 0;
+}
+.select2-dropdown{
+  border: 1px solid var(--color-primary-grey-40);
+  box-shadow: var(--shadow-s);
+  background: #F5F5F5;
+  border-radius: 20px !important;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+/* .SumoSelect>.CaptionCont>label>i {
+  background-image: url(../images/ic_chevron_down.svg);
+  background-repeat: no-repeat;
+} */
+
+/* .select__custom__wrapper .select2-container .select2-selection--single .select2-selection__rendered{
+  padding-left: 0;
+} */
+.select__custom__wrapper .select2-container--default .select2-selection--single .select2-selection__arrow b{
+  background-image: url(../images/ic_chevron_down.svg);
+  background-repeat: no-repeat;
+  width: 24px;
+    height: 24px; 
+    border:0;
+    margin-left: 0;
+    margin-bottom: 0;
+    top:auto;
+    bottom: 0;
+    left: 0;
+}
+.select2-container .select2-selection--single .select2-selection__rendered{
+  padding-left: 0;
+}
+
+
+ .select2-search--dropdown .select2-search__field{
+  padding: 6px 16px;
+  height: 42px;
+  border-radius: 24px;
+  outline: 0;
+  font-size: 16px;
+}
+.select2-results__option{
+  color: var(--color-primary-grey-80);
+  padding-right: var(--spacing-base);
+  padding-left: var(--spacing-base);
+  /* border-bottom: 1px solid var(--color-primary-grey-40); */
+  /* background-color: var(--color-primary-grey-20); */
+}
+.select2-container--default .select2-results__option--selected{ 
+  background-color: #fff;
+  color: var(--color-primary-60); 
+}
+
+.select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
+  background-color: var(--color-primary-grey-40);
+  color: var(--color-primary-grey-80);
+}
+
+.select2-container--default .select2-results__option--selected.select2-results__option--highlighted{
+  background-color: var(--color-primary-grey-20);
+  color: var(--color-primary-60); 
+}
+ 
+.select2-results__options{
+  padding-bottom: 16px;
+}
+ 
+/* for rounded select */ 
+/* .rounded_select .select2-results__option{
+  border-bottom: 0;
+} */
+
+ 
+.select2-search--dropdown{
+  padding: 12px;
+}
+
+.select2-results{
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  overflow: hidden;
+}
+.rounded_select .select__custom__wrapper .select2-container--default .select2-selection--single{
+  border-bottom: 0;
+}
+.rounded_select .select2-container .select2-selection--single .select2-selection__rendered{
+    padding-left: 16px;
+    padding-right: 36px;
+  }
+  .rounded_select .select2-container{
+    border-radius: 2rem;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .rounded_select .select2-container--default .select2-selection--single .select2-selection__arrow{
+    width: 2rem;
+    top:50%;
+    transform: translateY(-50%);
+  }
+
+  .rounded_select .select2-container .select2-selection--single{
+    height:3rem;
+  }
+
+  .rounded_select .select2-container--default .select2-selection--single .select2-selection__rendered{
+    line-height: 3;
+  }
+
+
+  .rounded_select .select__custom__wrapper .select2-container--default .select2-selection--single .select2-selection__arrow b{
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGWSURBVHgBpZVPVsIwEMa/lrIWd+4MJxBPIOx8rvAE4Nq/nEA8gSi6Fk+grnRnvUE9gb2Bda/UL014hjbJQ/jea15JOr9MZiZDAK8uGxxaQLQFTNfVXPgJfL8Bg8RlFThggqAzvvT4NBy2Kc2HwNH9AtAbgvKRB1ZWTM8P6HnqgI7POQzxf6UEd2bg0AB2lwRKCYbrYfaj9je/94zFj2zTBrDLk7/E+vjXfUbiDqsrYxia+vhBr7qeZ3576zpPWuuGuhbbJYMU+Gky5Ntq94oStY59y2Yt6amoLgQNteshjcNOCZzoTMu5TYutCGFPDueiV3UJ5sAGUNYzRhbomoSmsEtUwSYwnzjsEGkPMofHQoM7CizlB7JHvOuSGtOwnKw5pcrL+o4fKBV0I/WSsykEbc+Xgh5/8Dv4Javm+EnX6ckERRJWVTgsRmOCnQYZltfjrA0aUJmIfIDllKj2p92bX5NhkLdIxmZhXRmXoZCr87O86n2Wx6m8IQ5YzOeCiYnLCw6oqVv+R00FiiuZf9FEdqLY9KysX3GYdwyWCyzUAAAAAElFTkSuQmCC);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    border: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    top: auto;
+    bottom: 0;
+    left: 0;
+  }
+
+  .rounded_select .select2-search--dropdown .select2-search__field{
+    padding: 8px 12px;
+    border-radius: 24px;
+    height: 42px;
+  }
+
+  
+  .rounded_select_max_width {
+    max-width: 310px;  
+  }
+
+  @media screen and (max-width:619px) {
+    .rounded_select_max_width {
+      max-width: 100%; 
+    }
+  }  
+  
+  .select__ui {
+    border-radius: 2rem;
+    height: 3rem;
+    line-height: 3;
+    border:0; 
+    padding-left: 16px;
+    padding-right: 36px;
+    pointer-events: none;
+    -webkit-appearance: none;
+    appearance: none;
+    font-size: 16px;
+    font-family: "JioType", helvetica, arial, sans-serif;
+    font-weight: 500;
+    color: #444; 
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGWSURBVHgBpZVPVsIwEMa/lrIWd+4MJxBPIOx8rvAE4Nq/nEA8gSi6Fk+grnRnvUE9gb2Bda/UL014hjbJQ/jea15JOr9MZiZDAK8uGxxaQLQFTNfVXPgJfL8Bg8RlFThggqAzvvT4NBy2Kc2HwNH9AtAbgvKRB1ZWTM8P6HnqgI7POQzxf6UEd2bg0AB2lwRKCYbrYfaj9je/94zFj2zTBrDLk7/E+vjXfUbiDqsrYxia+vhBr7qeZ3576zpPWuuGuhbbJYMU+Gky5Ntq94oStY59y2Yt6amoLgQNteshjcNOCZzoTMu5TYutCGFPDueiV3UJ5sAGUNYzRhbomoSmsEtUwSYwnzjsEGkPMofHQoM7CizlB7JHvOuSGtOwnKw5pcrL+o4fKBV0I/WSsykEbc+Xgh5/8Dv4Javm+EnX6ckERRJWVTgsRmOCnQYZltfjrA0aUJmIfIDllKj2p92bX5NhkLdIxmZhXRmXoZCr87O86n2Wx6m8IQ5YzOeCiYnLCw6oqVv+R00FiiuZf9FEdqLY9KysX3GYdwyWCyzUAAAAAElFTkSuQmCC);
+    background-repeat: no-repeat;
+    background-position: 96% 48%;
+  }
+  
+
+  .rounded_select_space{
+    max-width: 260px; 
+    margin: 0 auto;
+  }
+
+  @media screen and (max-width:619px) {
+    .rounded_select_space{
+      max-width: 100%; 
+    }
+  }
+
+
+/* 
+  .select2-dropdown--above{
+    display: flex; flex-direction: column;
+  }
+  .select2-dropdown--above .select2-search--dropdown{
+    order: 2;
+  }
+  .select2-dropdown--above .select2-results {
+  order: 1; 
+  }
+  
+  .select2-dropdown--below{
+    display: flex; flex-direction: column;
+  }
+  .select2-dropdown--below .select2-search--dropdown{
+    order: 1;
+  }
+  .select2-dropdown--below .select2-results {
+  order: 2; 
+  } */

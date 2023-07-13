@@ -1,0 +1,43 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.navbar .container-fluid .d-flex #search {
+   background-color:#0a2885;
+   border-radius: 50px;
+   width: 100%;
+   border: transparent;
+  
+}
+.navbar .container-fluid .d-flex #search:hover {
+    background-color: #061951;
+    border: transparent;
+    }
+
+.navbar .container-fluid .d-flex h6 {
+    color: white;
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar .container-fluid .d-flex .btn {
+    background-color:bisque;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+.navbar .container-fluid .d-flex .btn i {
+    font-size: 20px;
+    color:#0a2885 ;
+}
+.navbar .container-fluid .d-flex .btn:hover
+{
+    background-color: #061951;
+    border: transparent;
+    }
+
+    .container-fluid .container .col-lg-2 .rounded-circle:hover{
+       height: 120px;
+       }
+
